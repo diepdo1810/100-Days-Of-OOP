@@ -1,5 +1,5 @@
 
-Tuyệt vời! Bài dịch tiếng Anh cho các ngày học OOP của bạn sẽ như sau:
+[README VIETNAM](README_vi.md)
 
 ## Basic Part (Days 1-20):
 

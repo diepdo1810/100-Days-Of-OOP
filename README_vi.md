@@ -1,3 +1,5 @@
+[README ENGLISH](README.md)
+
 ### Phần Cơ Bản (Days 1-20):
 1. **01_Day_Introduction**: Giới thiệu về OOP, sự khác biệt so với lập trình thủ tục, các nguyên lý cơ bản.
 2. **02_Day_Classes_And_Objects**: Cách tạo lớp (class) và đối tượng (object) trong PHP và JavaScript.

@@ -1,46 +1,107 @@
+# 100 Days Of Object-Oriented Programming
 
-[README VIETNAM](README_vi.md)
+## Basic Part (Days 1-20)
 
-## Basic Part (Days 1-20):
+| # Day |                                                                       Topics                                                                        |
+| ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 01    |                                                             [Introduction](01_Day_Introduction/01_day_introduction.md)                                                             |
+| 02    |                                                             [Classes and Objects](02_Day_Classes_And_Objects/02_day_classes_and_objects.md)                                                             |
+| 03    |                                                             [Properties and Methods](03_Day_Properties_And_Methods/03_day_properties_and_methods.md)                                                             |
+| 04    |                                                             [Constructor and Destructor](04_Day_Constructor_And_Destructor/04_day_constructor_and_destructor.md)                                                             |
+| 05    |                                                             [Inheritance](05_Day_Inheritance/05_day_inheritance.md)                                                             |
+| 06    |                                                             [Encapsulation](06_Day_Encapsulation/06_day_encapsulation.md)                                                             |
+| 07    |                                                             [Abstract Classes](07_Day_Abstract_Classes/07_day_abstract_classes.md)                                                             |
+| 08    |                                                             [Interfaces](08_Day_Interfaces/08_day_interfaces.md)                                                             |
+| 09    |                                                             [Static Properties and Methods](09_Day_Static_Properties_And_Methods/09_day_static_properties_and_methods.md)                                                             |
+| 10    |                                                             [Visibility](10_Day_Visibility/10_day_visibility.md)                                                             |
+| 11    |                                                             [Polymorphism](11_Day_Polymorphism/11_day_polymorphism.md)                                                             |
+| 12    |                                                             [Type Hinting](12_Day_Type_Hinting/12_day_type_hinting.md)                                                             |
+| 13    |                                                             [Overriding Methods](13_Day_Overriding_Methods/13_day_overriding_methods.md)                                                             |
+| 14    |                                                             [Overloading](14_Day_Overloading/14_day_overloading.md)                                                             |
+| 15    |                                                             [Composition](15_Day_Composition/15_day_composition.md)                                                             |
+| 16    |                                                             [Traits in PHP](16_Day_Traits_PHP/16_day_traits_php.md)                                                             |
+| 17    |                                                             [Constants](17_Day_Constants/17_day_constants.md)                                                             |
+| 18    |                                                             [Destructuring in JS](18_Day_Destructuring_JS/18_day_destructuring_js.md)                                                             |
+| 19    |                                                             [Cloning Objects](19_Day_Clone_Objects/19_day_clone_objects.md)                                                             |
+| 20    |                                                             [Magic Methods in PHP](20_Day_Magic_Methods_PHP/20_day_magic_methods_php.md)                                                             |
 
-1.  **01_Day_Introduction**: Introduction to OOP, differences from procedural programming, and fundamental principles.
-2.  **02_Day_Classes_And_Objects**: Creating classes and objects in PHP and JavaScript.
-3.  **03_Day_Properties_And_Methods**: Declaring properties and methods.
-4.  **04_Day_Constructor_And_Destructor**: Understanding constructors and destructors.
-5.  **05_Day_Inheritance**: Inheritance and how to use it.
-6.  **06_Day_Encapsulation**: Encapsulation and its importance.
-7.  **07_Day_Abstract_Classes**: Abstract classes and their applications.
-8.  **08_Day_Interfaces**: Interfaces in OOP.
-9.  **09_Day_Static_Properties_And_Methods**: Static properties and methods.
-10.  **10_Day_Visibility**: Understanding public, private, and protected in OOP.
-11.  **11_Day_Polymorphism**: Polymorphism.
-12.  **12_Day_Type_Hinting**: Type hinting in PHP and JS.
-13.  **14_Day_Overriding_Methods**: Overriding methods.
-14.  **15_Day_Overloading**: Overloading in PHP (JS doesn't support natively).
-15.  **16_Day_Composition**: Composition and its differences from inheritance.
-16.  **17_Day_Traits_PHP**: Traits in PHP.
-17.  **18_Day_Constants**: Constants in classes.
-18.  **19_Day_Destructuring_JS**: Using destructuring with OOP in JavaScript.
-19.  **20_Day_Clone_Objects**: Cloning objects.
-20.  **21_Day_Magic_Methods_PHP**: Magic methods in PHP (__toString, __call, ...).
+🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
-## Advanced Part (Days 21-50):
+🇬🇧 [English](README.md)
+🇻🇳 [Vietnamese](Vietnamese/README.md)
 
-21.  **21_Day_Namespaces_PHP**: Namespaces in PHP.
-22.  **22_Day_Modules_JS**: Modules in JavaScript.
-23.  **23_Day_Singleton_Pattern**: Singleton pattern in PHP and JS.
-24.  **24_Day_Factory_Pattern**: Factory pattern.
-25.  **25_Day_Observer_Pattern**: Observer pattern.
-26.  **26_Day_Strategy_Pattern**: Strategy pattern.
-27.  **27_Day_Decorator_Pattern**: Decorator pattern.
-28.  **28_Day_MVC_Pattern**: Basic MVC pattern with PHP and JS.
-29.  **29_Day_Dependency_Injection**: Dependency injection.
-30.  **30_Day_ORM_Objects_PHP**: Object-relational mapping (ORM) in PHP. ...
+[Day 2 >>>](./02_Day_Data_types/02_day_data_types.md)
 
-## Deep Dive Part (Days 51-100):
+- [100 Days Of Object-Oriented Programming](#100-days-of-object-oriented-programming)
+- [📔 Day 1](#-day-1)
+	- [Introduction](#introduction)
+	- [Concepts of OOP](#concepts-of-oop)
+	- [Advantages of OOP](#advantages-of-oop)
+- [📔 Day 2](#-day-2)
+	- [Classes and Objects](#classes-and-objects)
+	- [Defining a Class](#defining-a-class)
+	- [Creating Objects](#creating-objects)
+- [📔 Day 3](#-day-3)
+	- [Properties and Methods](#properties-and-methods)
+	- [Instance vs Static Properties](#instance-vs-static-properties)
+	- [Accessing Methods](#accessing-methods)
+- [📔 Day 4](#-day-4)
+	- [Constructor and Destructor](#constructor-and-destructor)
+	- [Using Constructor](#using-constructor)
+	- [Destructor Behavior](#destructor-behavior)
+- [📔 Day 5](#-day-5)
+	- [Inheritance](#inheritance)
+	- [Types of Inheritance](#types-of-inheritance)
+	- [Using Inheritance](#using-inheritance)
+- [📔 Day 6](#-day-6)
+	- [Encapsulation](#encapsulation)
+	- [Getter and Setter Methods](#getter-and-setter-methods)
+- [📔 Day 7](#-day-7)
+	- [Abstract Classes](#abstract-classes)
+	- [Defining an Abstract Class](#defining-an-abstract-class)
+	- [Using Abstract Methods](#using-abstract-methods)
+- [📔 Day 8](#-day-8)
+	- [Interfaces](#interfaces)
+	- [Implementing Interfaces](#implementing-interfaces)
+- [📔 Day 9](#-day-9)
+	- [Static Properties and Methods](#static-properties-and-methods)
+	- [Accessing Static Methods](#accessing-static-methods)
+- [📔 Day 10](#-day-10)
+	- [Visibility](#visibility)
+	- [Public, Private, Protected](#public-private-protected)
+- [📔 Day 11](#-day-11)
+	- [Polymorphism](#polymorphism)
+	- [Method Overriding](#method-overriding)
+- [📔 Day 12](#-day-12)
+	- [Type Hinting](#type-hinting)
+	- [Using Type Hinting](#using-type-hinting)
+- [📔 Day 13](#-day-13)
+	- [Overriding Methods](#overriding-methods)
+	- [Practical Example](#practical-example)
+- [📔 Day 14](#-day-14)
+	- [Overloading](#overloading)
+	- [Defining Overloaded Methods](#defining-overloaded-methods)
+- [📔 Day 15](#-day-15)
+	- [Composition](#composition)
+	- [Using Composition](#using-composition)
+- [📔 Day 16](#-day-16)
+	- [Traits in PHP](#traits-in-php)
+	- [Using Traits](#using-traits)
+- [📔 Day 17](#-day-17)
+	- [Constants](#constants)
+	- [Defining Constants](#defining-constants)
+- [📔 Day 18](#-day-18)
+	- [Destructuring in JS](#destructuring-in-js)
+	- [Benefits of Destructuring](#benefits-of-destructuring)
+- [📔 Day 19](#-day-19)
+	- [Cloning Objects](#cloning-objects)
+	- [Shallow vs Deep Clone](#shallow-vs-deep-clone)
+- [📔 Day 20](#-day-20)
+	- [Magic Methods in PHP](#magic-methods-in-php)
+	- [Overview of Magic Methods](#overview-of-magic-methods)
 
-51.  **51_Day_Async_OOP_JS**: OOP combined with async/await in JS.
-52.  **52_Day_Reflection_PHP**: Reflection API in PHP.
-53.  **53_Day_Testing_OOP**: Testing OOP classes. ...
+# 📔 Day 1
 
----
+## Introduction
+
+[Easy to read](01_Day_Introduction/01_day_introduction.md)

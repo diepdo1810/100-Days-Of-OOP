@@ -1,4 +1,4 @@
-### **Object-Oriented Programming (OOP) Introduction**
+#### 📔 Day 1: Object-Oriented Programming (OOP) Introduction
 
 **Object-Oriented Programming (OOP)** is a programming paradigm that organizes software design around data, or objects, rather than functions and logic. It aims to increase modularity and reusability of code.
 
